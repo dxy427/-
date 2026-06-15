@@ -1,0 +1,64 @@
+<!doctype html>
+<html lang="zh-CN">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>MINICARE Fullscreen</title>
+    <style>
+      html,
+      body {
+        width: 100%;
+        margin: 0;
+        background: #fff;
+      }
+
+      body {
+        overflow-x: hidden;
+        overflow-y: auto;
+        background: #fff;
+      }
+
+      .screen {
+        width: 100%;
+        min-height: 0;
+        background: #fff;
+        display: grid;
+        place-items: center;
+        padding: 0;
+      }
+
+      .screen img {
+        width: 100%;
+        max-width: 1440px;
+        height: auto;
+        display: block;
+        background: #fff;
+      }
+
+      .screen.is-light {
+        background: #fff;
+      }
+
+      .screen.is-light img {
+        width: min(100vw, 1440px);
+      }
+    </style>
+  </head>
+  <body>
+    <section class="screen">
+      <img src="images/品牌故事.png" alt="MINICARE 元点系列品牌故事">
+    </section>
+    <section class="screen">
+      <img src="images/minicare-continuous.png" alt="MINICARE 元点系列 logo 与产品合集">
+    </section>
+    <section class="screen">
+      <img src="images/手册.jpg" alt="MINICARE 元点系列手册视觉">
+    </section>
+    <section class="screen is-light">
+      <img src="images/品牌故事1.png" alt="MINICARE 元点系列品牌故事延展一">
+    </section>
+    <section class="screen is-light">
+      <img src="images/品牌故事2.png" alt="MINICARE 元点系列品牌故事延展二">
+    </section>
+  </body>
+</html>

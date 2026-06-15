@@ -1,0 +1,259 @@
+<!doctype html>
+<html lang="zh-CN">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>XIAOYOU Motion Portfolio</title>
+    <meta name="description" content="个人动态设计师作品集，展示 3D 产品视觉、包装设计、动态影像与实验项目。">
+    <link rel="stylesheet" href="styles.css">
+  </head>
+  <body>
+    <div class="grain" aria-hidden="true"></div>
+
+    <header class="site-header" aria-label="主导航">
+      <a class="brand" href="#top" aria-label="返回首页">
+        <span>XIAOYOU</span>
+        <span>3D / MOTION / PACKAGE</span>
+      </a>
+      <nav class="nav-links">
+        <a href="#work">WORK</a>
+        <a href="#tools">TOOLS</a>
+        <a href="#about">ABOUT</a>
+        <a href="#contact">CONTACT</a>
+      </nav>
+    </header>
+
+    <main id="top">
+      <section class="hero" aria-label="全屏视频首屏">
+        <video
+          class="hero-video"
+          src="images/Minicare动态成片.mp4"
+          poster="images/minicare-brand-combined.png"
+          autoplay
+          muted
+          loop
+          playsinline
+        ></video>
+        <div class="hero-shade" aria-hidden="true"></div>
+
+        <div class="hero-layout">
+          <p class="hero-tag reveal">STRIVE TO CREATE MORE POSSIBILITIES</p>
+          <h1 class="hero-title reveal">
+            <span>三维</span>
+            <span>视觉</span>
+          </h1>
+          <div class="hero-side reveal">
+            <p>做包装，也做会动的 3D 画面。让产品、材质和节奏形成一个持续生长的视觉档案。</p>
+            <a href="#work">进入作品</a>
+          </div>
+          <div class="hero-categories reveal" aria-label="作品分类">
+            <span>PACKAGE</span>
+            <span>DYNAMIC</span>
+            <span>PRODUCT</span>
+          </div>
+        </div>
+      </section>
+
+      <section class="intro page-section">
+        <div class="intro-mark reveal">XIAOYOU</div>
+        <div class="intro-copy reveal">
+          <p class="eyebrow">ABOUT ME</p>
+          <h2>精通 3D 全流程，善用 AIGC，实战统筹能力出众。</h2>
+          <p>我关注 3D 画面的性格：产品怎样出现，材质怎样被看见，镜头怎样让一个小物件变得有记忆点。</p>
+        </div>
+      </section>
+
+      <section class="works page-section" id="work">
+        <div class="section-head reveal">
+          <p class="eyebrow">SELECTED WORKS</p>
+          <h2>作品不是分类，是不同方向的实验。</h2>
+        </div>
+
+        <div class="filter-bar reveal" aria-label="作品筛选">
+          <button class="filter-button is-active" type="button" data-filter="all">ALL</button>
+          <button class="filter-button" type="button" data-filter="package">PACKAGE</button>
+          <button class="filter-button" type="button" data-filter="dynamic">DYNAMIC</button>
+        </div>
+
+        <div class="work-list">
+          <article class="work-item reveal" data-category="package">
+            <a class="work-link" href="minicare-fullscreen.html">
+              <span class="work-no">01</span>
+              <div>
+                <h3>MINICARE元点系列</h3>
+                <p>3D Product</p>
+              </div>
+              <span class="work-meta">C4D / 2022-2023</span>
+            </a>
+            <img class="work-preview" src="images/minicare-brand-combined.png" alt="MINICARE 元点系列品牌合集视觉">
+          </article>
+
+          <article class="work-item reveal" data-category="package">
+            <a class="work-link" href="roopy-fullscreen.html">
+              <span class="work-no">02</span>
+              <div>
+                <h3>ROOPY润培系列</h3>
+                <p>Package / Material Visual</p>
+              </div>
+              <span class="work-meta">C4D / 2023</span>
+            </a>
+            <img class="work-preview" src="images/roopy-combined.jpg" alt="ROOPY 润培系列连续包装视觉">
+          </article>
+
+          <article class="work-item reveal" data-category="brand">
+            <a class="work-link" href="corex-fullscreen.html">
+              <span class="work-no">03</span>
+              <div>
+                <h3>CORE X 构象品牌视觉</h3>
+                <p>Brand Identity</p>
+              </div>
+              <span class="work-meta">BRAND / 2024</span>
+            </a>
+            <img class="work-preview" src="images/corex-combined.jpg" alt="CORE X 构象品牌视觉长图">
+          </article>
+
+          <article class="work-item reveal" data-category="dynamic">
+            <a class="work-link" href="images/新护手霜配乐最终.mp4">
+              <span class="work-no">04</span>
+              <div>
+                <h3>ROOPY润培包装升级CG</h3>
+                <p>Package/Visual</p>
+              </div>
+              <span class="work-meta">C4D / 2023-2024</span>
+            </a>
+            <video class="work-preview" src="images/新护手霜配乐最终.mp4" muted loop autoplay playsinline></video>
+          </article>
+
+          <article class="work-item reveal" data-category="dynamic">
+            <a class="work-link" href="images/12.11配乐1.mp4">
+              <span class="work-no">05</span>
+              <div>
+                <h3>ECOOBIX 白惜产品CG</h3>
+                <p>Daily Chemicals/Visual</p>
+              </div>
+              <span class="work-meta">C4D / 2024</span>
+            </a>
+            <video class="work-preview" src="images/12.11配乐1.mp4" muted loop autoplay playsinline></video>
+          </article>
+
+          <article class="work-item reveal" data-category="archive">
+            <a class="work-link" href="images/佳沛.mp4">
+              <span class="work-no">06</span>
+              <div>
+                <h3>ZESPRI佳沛产品CG</h3>
+                <p>Food/Visual</p>
+              </div>
+              <span class="work-meta">C4D / 2024</span>
+            </a>
+            <video class="work-preview" src="images/佳沛.mp4" muted loop autoplay playsinline></video>
+          </article>
+
+          <article class="work-item reveal" data-category="archive">
+            <a class="work-link" href="images/三只小牛.mp4">
+              <span class="work-no">07</span>
+              <div>
+                <h3>三只小牛产品CG</h3>
+                <p>Food/Visual</p>
+              </div>
+              <span class="work-meta">C4D / 2024</span>
+            </a>
+            <video class="work-preview" src="images/三只小牛.mp4" muted loop autoplay playsinline></video>
+          </article>
+
+          <article class="work-item reveal" data-category="archive">
+            <a class="work-link" href="images/井理.m4v">
+              <span class="work-no">08</span>
+              <div>
+                <h3>井理SHAKEN鸡尾酒产品CG</h3>
+                <p>Cocktail/Visual</p>
+              </div>
+              <span class="work-meta">C4D / 2025</span>
+            </a>
+            <video class="work-preview" src="images/井理.m4v" muted loop autoplay playsinline></video>
+          </article>
+
+          <article class="work-item reveal" data-category="archive">
+            <a class="work-link" href="images/最终配音剪辑 -.m4v">
+              <span class="work-no">09</span>
+              <div>
+                <h3>井理SHAKEN鸡尾酒AI视频</h3>
+                <p>AI/Visual</p>
+              </div>
+              <span class="work-meta">AI / 2026</span>
+            </a>
+            <video class="work-preview" src="images/最终配音剪辑 -.m4v" muted loop autoplay playsinline></video>
+          </article>
+
+          <article class="work-item reveal" data-category="archive">
+            <a class="work-link" href="images/实验.mp4">
+              <span class="work-no">10</span>
+              <div>
+                <h3>MOSIIMORII实验视频</h3>
+                <p>AI/Test</p>
+              </div>
+              <span class="work-meta">AI / 2026</span>
+            </a>
+            <video class="work-preview" src="images/实验.mp4" muted loop autoplay playsinline></video>
+          </article>
+        </div>
+      </section>
+
+      <section class="visual-grid page-section" aria-label="作品图像展示">
+        <figure class="float-card reveal">
+          <video src="images/3月18日.m4v" muted loop autoplay playsinline></video>
+          <figcaption>Creative / Experiment</figcaption>
+        </figure>
+        <figure class="float-card card-offset reveal">
+          <video src="images/1月11日.mp4" muted loop autoplay playsinline></video>
+          <figcaption>Dynamics / Experiment</figcaption>
+        </figure>
+        <figure class="float-card reveal">
+          <video src="images/成分1.mp4" muted loop autoplay playsinline></video>
+          <figcaption>DYNAMICS / DESIGN</figcaption>
+        </figure>
+      </section>
+
+      <section class="tools" id="tools" aria-label="工具标签">
+        <div class="tool-track" aria-hidden="true">
+          <span>3D PRODUCT FILM</span>
+          <span>PACKAGING VISUAL</span>
+          <span>MOTION DIRECTION</span>
+          <span>BRAND IDENTITY</span>
+          <span>FOOD VISUAL</span>
+          <span>COCKTAIL VISUAL</span>
+          <span>AI VISUAL</span>
+          <span>PORTFOLIO WEBSITE</span>
+          <span>3D PRODUCT FILM</span>
+          <span>PACKAGING VISUAL</span>
+          <span>MOTION DIRECTION</span>
+          <span>AI TEST</span>
+        </div>
+      </section>
+
+      <section class="about page-section" id="about">
+        <div class="about-copy reveal">
+          <p class="eyebrow">PHILOSOPHY</p>
+          <h2>让 3D 画面拥有一点性格。</h2>
+          <p>这里保存包装、动态和产品实验。它们有些是完整项目，有些是镜头练习，但都在寻找同一件事：产品如何更有趣地被看见。</p>
+        </div>
+        <div class="about-panel reveal">
+          <span>AVAILABLE FOR</span>
+          <ul>
+            <li>3D product film</li>
+            <li>Packaging visual</li>
+            <li>Motion direction</li>
+            <li>Portfolio website</li>
+          </ul>
+        </div>
+      </section>
+
+      <section class="contact page-section" id="contact">
+        <p class="eyebrow reveal">CONTACT</p>
+        <h2 class="reveal">一起把下一个产品，做成会动的视觉艺术。</h2>
+        <a class="contact-link reveal" href="mailto:hello@xiaoyou.fun">hello@xiaoyou.fun</a>
+      </section>
+    </main>
+
+    <script src="script.js"></script>
+  </body>
+</html>

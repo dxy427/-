@@ -1,2 +1,5 @@
-# -
-小又的作品集
+# XIAOYOU Motion Portfolio
+
+Static portfolio site prepared for GitHub Pages.
+
+Entry file: `index.html`
